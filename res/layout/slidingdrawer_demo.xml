@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >
+		
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+		    android:layout_height="match_parent" >
+	        
+	        <Button
+	            android:id="@+id/b_open"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="10sp"
+	            android:text="Open" />
+		    <Button
+		            android:id="@+id/b_close"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_toRightOf="@id/b_open"
+		            android:textSize="10sp"
+		            android:text="Close" />
+		    <Button
+		            android:id="@+id/b_toggle"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:textSize="10sp"
+		            android:text="Toggle" />
+	        
+	    </RelativeLayout>
+	    
+	</LinearLayout>
+    
+    <SlidingDrawer
+        android:id="@+id/slidingdrawer1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/content"
+        android:handle="@+id/handle" >
+        
+        <Button
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="Handle" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CCCCCC" >
+            
+		    <CheckBox
+		        android:id="@+id/cb_lockunlock"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="CheckBox" />
+		    
+        </LinearLayout>
+        
+    </SlidingDrawer>
+
+</FrameLayout>
