@@ -58,55 +58,78 @@ public final class R {
         public static final int logo=0x7f020003;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b001e;
-        public static final int b_addtab=0x7f0b001d;
-        public static final int b_close=0x7f0b0010;
-        public static final int b_load=0x7f0b000c;
-        public static final int b_open=0x7f0b000f;
-        public static final int b_save=0x7f0b000b;
-        public static final int b_start=0x7f0b0018;
-        public static final int b_stop=0x7f0b0019;
-        public static final int b_toggle=0x7f0b0011;
-        public static final int button1=0x7f0b0004;
-        public static final int button2=0x7f0b0002;
-        public static final int cb_lockunlock=0x7f0b0015;
-        public static final int content=0x7f0b0013;
-        public static final int et_namefield=0x7f0b000a;
-        public static final int flipper=0x7f0b0000;
-        public static final int handle=0x7f0b0014;
-        public static final int imageView1=0x7f0b0001;
-        public static final int imageView2=0x7f0b0003;
-        public static final int mySimpleXYPlot=0x7f0b000e;
-        public static final int slidingdrawer1=0x7f0b0012;
-        public static final int tab1=0x7f0b0017;
-        public static final int tab2=0x7f0b001b;
-        public static final int tab3=0x7f0b001c;
-        public static final int tabhost=0x7f0b0016;
-        public static final int textView1=0x7f0b0006;
-        public static final int textView2=0x7f0b0007;
-        public static final int textView3=0x7f0b0008;
-        public static final int tv_dataresults=0x7f0b000d;
-        public static final int tv_httpresults=0x7f0b0009;
-        public static final int tv_showresults=0x7f0b001a;
-        public static final int viewFlipper1=0x7f0b0005;
+        public static final int action_flip=0x7f080001;
+        /** 
+        These action bar item IDs (menu item IDs) are defined here for
+        programmatic use. Normally, IDs are created using the "@+id/foo"
+        syntax, but since these IDs aren't created in menu XML, rather
+        used for programmatically-instantiated action bar items, they
+        are defined here.
+    
+         */
+        public static final int action_next=0x7f080000;
+        public static final int action_previous=0x7f080021;
+        public static final int action_settings=0x7f080022;
+        public static final int b_addtab=0x7f080020;
+        public static final int b_close=0x7f080014;
+        public static final int b_load=0x7f080010;
+        public static final int b_open=0x7f080013;
+        public static final int b_save=0x7f08000f;
+        public static final int b_start=0x7f08001b;
+        public static final int b_stop=0x7f08001c;
+        public static final int b_toggle=0x7f080015;
+        public static final int button1=0x7f080006;
+        public static final int button2=0x7f080004;
+        public static final int cb_lockunlock=0x7f080018;
+        public static final int content=0x7f08000b;
+        public static final int et_namefield=0x7f08000e;
+        public static final int flipper=0x7f080002;
+        public static final int handle=0x7f080017;
+        public static final int imageView1=0x7f080003;
+        public static final int imageView2=0x7f080005;
+        public static final int mySimpleXYPlot=0x7f080012;
+        public static final int pager=0x7f08000d;
+        public static final int slidingdrawer1=0x7f080016;
+        public static final int tab1=0x7f08001a;
+        public static final int tab2=0x7f08001e;
+        public static final int tab3=0x7f08001f;
+        public static final int tabhost=0x7f080019;
+        public static final int textView1=0x7f080008;
+        public static final int textView2=0x7f080009;
+        public static final int textView3=0x7f08000a;
+        public static final int tv_dataresults=0x7f080011;
+        public static final int tv_httpresults=0x7f08000c;
+        public static final int tv_showresults=0x7f08001d;
+        public static final int viewFlipper1=0x7f080007;
     }
     public static final class layout {
         public static final int activity_menu_activty=0x7f030000;
         public static final int carousel=0x7f030001;
         public static final int flipper=0x7f030002;
-        public static final int http_demo=0x7f030003;
-        public static final int sharedprefs=0x7f030004;
-        public static final int simple_xy_plot=0x7f030005;
-        public static final int slidingdrawer_demo=0x7f030006;
-        public static final int tabs_demo=0x7f030007;
+        public static final int fragment_page1=0x7f030003;
+        public static final int fragment_page2=0x7f030004;
+        public static final int fragment_page3=0x7f030005;
+        public static final int fragment_page4=0x7f030006;
+        public static final int fragment_page5=0x7f030007;
+        public static final int http_demo=0x7f030008;
+        public static final int pager_demo=0x7f030009;
+        public static final int sharedprefs=0x7f03000a;
+        public static final int simple_xy_plot=0x7f03000b;
+        public static final int slidingdrawer_demo=0x7f03000c;
+        public static final int tabs_demo=0x7f03000d;
     }
     public static final class menu {
-        public static final int menu_activty=0x7f0a0000;
+        public static final int activity_screen_slide=0x7f0b0000;
+        public static final int menu_activty=0x7f0b0001;
     }
     public static final class string {
-        public static final int action_settings=0x7f080002;
-        public static final int app_name=0x7f080000;
-        public static final int hello_world=0x7f080001;
+        public static final int action_finish=0x7f090006;
+        public static final int action_next=0x7f090005;
+        public static final int action_previous=0x7f090004;
+        public static final int action_settings=0x7f090002;
+        public static final int app_name=0x7f090000;
+        public static final int hello_world=0x7f090001;
+        public static final int lorem_ipsum=0x7f090003;
     }
     public static final class style {
         /**  ANDROID DEFAULT THEME 
@@ -131,20 +154,20 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f090000;
+        public static final int AppBaseTheme=0x7f0a0000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f090001;
+        public static final int AppTheme=0x7f0a0001;
         /**  CUSTOM THEME 
          */
-        public static final int CustomActionBarTheme=0x7f090002;
+        public static final int CustomActionBarTheme=0x7f0a0002;
         /**  ActionBar styles 
          */
-        public static final int MyActionBar=0x7f090003;
+        public static final int MyActionBar=0x7f0a0003;
         /**  Actionbar text styles 
          */
-        public static final int TitleTextStyle=0x7f090004;
+        public static final int TitleTextStyle=0x7f0a0004;
     }
     public static final class xml {
         public static final int line_point_formatter_with_plf1=0x7f050000;

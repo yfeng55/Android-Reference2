@@ -4,5 +4,8 @@
     <string name="app_name">DEMOAPPS</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat efficitur ultricies. Vestibulum ornare eleifend velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed condimentum ex. Suspendisse vitae nulla mi. Nullam elementum ante non elit rhoncus condimentum vel eu nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id sagittis augue. Vestibulum nec lectus at diam luctus hendrerit vel sed orci. Aenean eu sapien aliquet, rutrum nunc nec, fringilla metus. Sed at volutpat velit. Sed a lectus ac odio tincidunt sagittis.</string>
+	<string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
 </resources>
