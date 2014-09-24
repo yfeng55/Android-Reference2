@@ -15,6 +15,14 @@ public final class R {
         public static final int out_right=0x7f040003;
     }
     public static final class attr {
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fontName=0x7f010000;
     }
     public static final class color {
         public static final int article_title=0x7f06000a;
@@ -173,4 +181,33 @@ public final class R {
         public static final int line_point_formatter_with_plf1=0x7f050000;
         public static final int line_point_formatter_with_plf2=0x7f050001;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a MyTextView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MyTextView_fontName com.example.demoapps:fontName}</code></td><td></td></tr>
+           </table>
+           @see #MyTextView_fontName
+         */
+        public static final int[] MyTextView = {
+            0x7f010000
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.demoapps.R.attr#fontName}
+          attribute's value can be found in the {@link #MyTextView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.demoapps:fontName
+        */
+        public static final int MyTextView_fontName = 0;
+    };
 }
