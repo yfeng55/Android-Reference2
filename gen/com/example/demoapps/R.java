@@ -25,16 +25,19 @@ containing a value of this type.
         public static final int fontName=0x7f010000;
     }
     public static final class color {
-        public static final int article_title=0x7f06000a;
-        public static final int articlecolor=0x7f060009;
+        public static final int article_title=0x7f06000d;
+        public static final int articlecolor=0x7f06000c;
         public static final int black=0x7f060004;
-        public static final int blue=0x7f060006;
-        public static final int blueback=0x7f060008;
-        public static final int cachecolor=0x7f06000b;
+        public static final int blue=0x7f060009;
+        public static final int blueback=0x7f06000b;
+        public static final int cachecolor=0x7f06000e;
+        public static final int darkgray=0x7f060006;
         public static final int date_color=0x7f060003;
-        public static final int gold=0x7f060007;
+        public static final int gold=0x7f06000a;
         public static final int gray=0x7f060005;
-        public static final int green=0x7f06000c;
+        public static final int green=0x7f06000f;
+        public static final int lightergray=0x7f060007;
+        public static final int lightgray=0x7f060008;
         public static final int orange=0x7f060000;
         public static final int transparent=0x7f060002;
         public static final int white=0x7f060001;
@@ -62,8 +65,14 @@ containing a value of this type.
     public static final class drawable {
         public static final int androidlogo=0x7f020000;
         public static final int androidlogowhite=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int logo=0x7f020003;
+        public static final int button_text_color=0x7f020002;
+        public static final int edittext_roundedcorners=0x7f020003;
+        public static final int flat_selector_color=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int logo=0x7f020006;
+        public static final int padlock=0x7f020007;
+        public static final int rect_pressed=0x7f020008;
+        public static final int rect_pressed_color=0x7f020009;
     }
     public static final class id {
         public static final int action_flip=0x7f080001;
@@ -76,38 +85,41 @@ containing a value of this type.
     
          */
         public static final int action_next=0x7f080000;
-        public static final int action_previous=0x7f080021;
-        public static final int action_settings=0x7f080022;
-        public static final int b_addtab=0x7f080020;
-        public static final int b_close=0x7f080014;
-        public static final int b_load=0x7f080010;
-        public static final int b_open=0x7f080013;
-        public static final int b_save=0x7f08000f;
-        public static final int b_start=0x7f08001b;
-        public static final int b_stop=0x7f08001c;
-        public static final int b_toggle=0x7f080015;
+        public static final int action_previous=0x7f080024;
+        public static final int action_settings=0x7f080025;
+        public static final int b_addtab=0x7f080023;
+        public static final int b_close=0x7f080017;
+        public static final int b_load=0x7f080013;
+        public static final int b_open=0x7f080016;
+        public static final int b_save=0x7f080012;
+        public static final int b_start=0x7f08001e;
+        public static final int b_stop=0x7f08001f;
+        public static final int b_toggle=0x7f080018;
         public static final int button1=0x7f080006;
         public static final int button2=0x7f080004;
-        public static final int cb_lockunlock=0x7f080018;
+        public static final int cb_lockunlock=0x7f08001b;
         public static final int content=0x7f08000b;
-        public static final int et_namefield=0x7f08000e;
+        public static final int et_namefield=0x7f080011;
         public static final int flipper=0x7f080002;
-        public static final int handle=0x7f080017;
+        public static final int handle=0x7f08001a;
         public static final int imageView1=0x7f080003;
         public static final int imageView2=0x7f080005;
-        public static final int mySimpleXYPlot=0x7f080012;
+        public static final int mySimpleXYPlot=0x7f080015;
         public static final int pager=0x7f08000d;
-        public static final int slidingdrawer1=0x7f080016;
-        public static final int tab1=0x7f08001a;
-        public static final int tab2=0x7f08001e;
-        public static final int tab3=0x7f08001f;
-        public static final int tabhost=0x7f080019;
+        public static final int secretKey=0x7f08000f;
+        public static final int senderNum=0x7f08000e;
+        public static final int slidingdrawer1=0x7f080019;
+        public static final int submit=0x7f080010;
+        public static final int tab1=0x7f08001d;
+        public static final int tab2=0x7f080021;
+        public static final int tab3=0x7f080022;
+        public static final int tabhost=0x7f08001c;
         public static final int textView1=0x7f080008;
         public static final int textView2=0x7f080009;
         public static final int textView3=0x7f08000a;
-        public static final int tv_dataresults=0x7f080011;
+        public static final int tv_dataresults=0x7f080014;
         public static final int tv_httpresults=0x7f08000c;
-        public static final int tv_showresults=0x7f08001d;
+        public static final int tv_showresults=0x7f080020;
         public static final int viewFlipper1=0x7f080007;
     }
     public static final class layout {
@@ -121,10 +133,11 @@ containing a value of this type.
         public static final int fragment_page5=0x7f030007;
         public static final int http_demo=0x7f030008;
         public static final int pager_demo=0x7f030009;
-        public static final int sharedprefs=0x7f03000a;
-        public static final int simple_xy_plot=0x7f03000b;
-        public static final int slidingdrawer_demo=0x7f03000c;
-        public static final int tabs_demo=0x7f03000d;
+        public static final int samplelayout=0x7f03000a;
+        public static final int sharedprefs=0x7f03000b;
+        public static final int simple_xy_plot=0x7f03000c;
+        public static final int slidingdrawer_demo=0x7f03000d;
+        public static final int tabs_demo=0x7f03000e;
     }
     public static final class menu {
         public static final int activity_screen_slide=0x7f0b0000;
